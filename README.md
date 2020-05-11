@@ -1,11 +1,6 @@
 # Pardon the Interruption
-## Author: 
 
-Haley Lepp
-
-Computational Linguistics 
-
-University of Washington
+Author: Haley Lepp, University of Washington Computational Linguistics
 
 
 ## Description:
@@ -55,13 +50,13 @@ Raw are saved in `annotations.txt`. The id is the numeric count of the turn in e
 
 Labels are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
 
-<img src="img/distribution.png" width="500">
 Distribution of Labels
 
+<img src="img/distribution.png" width="500">
 
-<img src="img/slider.png" width="500">
 Slider which Annotators Used for Labeling
 
+<img src="img/slider.png" width="500">
 
 ### Features:
 Features can be extracted as relevant to individual studies. We had most success with OpenSmile feature-sets.
