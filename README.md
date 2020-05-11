@@ -9,7 +9,7 @@ University of Washington
 
 
 ## Description:
-This study presents a corpus of exchanges between speakers in U.S. Supreme Court Oral Arguments. Each exchange is labeled on a spectrum of 0 ("very competitive") to 100 ("very cooperative") by a human annotator with legal experience in the United States. Details on the collection of these annotations can be found[here](https://digital.lib.washington.edu/researchworks/handle/1773/45514). 
+This study presents a corpus of exchanges between speakers in U.S. Supreme Court Oral Arguments. Each exchange is labeled on a spectrum of 0 ("very competitive") to 100 ("very cooperative") by a human annotator with legal experience in the United States. Details on the collection of these annotations can be found [here](https://digital.lib.washington.edu/researchworks/handle/1773/45514). 
 
 Information about the audio segments and annotations included in the corpus is listed below.
 
@@ -55,9 +55,9 @@ Raw are saved in `annotations.txt`. The id is the numeric count of the turn in e
 
 Labels are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
 
-![Distribution of Labels](/images/distribution.png)
+![Distribution of Labels](img/distribution.png)
 
-![Slider which Annotators Used for Labeling](/images/slider.png)
+![Slider which Annotators Used for Labeling](img/slider.png)
 
 ### Features:
 Features can be extracted as relevant to individual studies. We had most success with OpenSmile feature-sets.
