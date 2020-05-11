@@ -55,10 +55,9 @@ Raw are saved in `annotations.txt`. The id is the numeric count of the turn in e
 
 Labels are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
 
-![Distribution of Labels](img/distribution.png =250x)
-<img src="img/distribution.png" alt="Distribution" width=250px>
+![Distribution of Labels](img/distribution.png)
 
-![Slider which Annotators Used for Labeling](img/slider.png =250x)
+![Slider which Annotators Used for Labeling](img/slider.png)
 
 ### Features:
 Features can be extracted as relevant to individual studies. We had most success with OpenSmile feature-sets.
