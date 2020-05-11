@@ -52,7 +52,7 @@ Labels are raw, as given directly by annotators. For our experiments we binned t
 
 Distribution of Labels
 
-<img src="img/distribution.png" width="500">
+<img src="img/label_distribution.png" width="500">
 
 Slider which Annotators Used for Labeling
 
