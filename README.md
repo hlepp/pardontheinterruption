@@ -24,9 +24,9 @@ Transcripts without timestamps are listed publicly on the website of the [U.S. S
 This study made use of timestamps extracted from HTML in recordings that have been time-alined by the [Oyez Project](https://www.oyez.org/cases/2019). 
 To extract the text by turns:
 1. Click on the oral argument recording on the left of the page, which will bring up an animated transcript. 
-1.Right click the animation and click "Inspect Element." 
-1.Right click on the section marked "class="transcript-section ng-scope"" and select "copy element." This will copy all relevant HTML to the clipboard, and you can save it to a separate document. 
-1.Run `extract_turns.sh`to split the transcripts into separate turns.
+2. Right click the animation and click "Inspect Element." 
+3. Right click on the section marked "class="transcript-section ng-scope"" and select "copy element." This will copy all relevant HTML to the clipboard, and you can save it to a separate document. 
+4. Run `extract_turns.sh`to split the transcripts into separate turns.
 
 
 
