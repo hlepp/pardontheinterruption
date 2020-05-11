@@ -38,7 +38,7 @@ Run the audio splicing script using the time-stamp document and the appropriate 
 `split_files.sh`
 
 ### Text:
-Transcripts without timestamps are listed publicly on the website of the [U.S. Supreme Court](https://www.supremecourt.gov/oral_arguments/argument_transcript/2019)
+Transcripts without timestamps are listed publicly on the website of the [U.S. Supreme Court](https://www.supremecourt.gov/oral_arguments/argument_transcript/2019).
 This study made use of timestamps extracted from HTML in recordings that have been time-alined by the [Oyez Project](https://www.oyez.org/cases/2019). 
 To extract the text by turns:
 1. Click on the oral argument recording on the left of the page, which will bring up an animated transcript. 
@@ -55,9 +55,9 @@ Raw are saved in `annotations.txt`. The id is the numeric count of the turn in e
 
 Labels are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
 
-![Distribution of Labels](img/distribution.png=250x)
+![Distribution of Labels](img/distribution.png =250x)
 
-![Slider which Annotators Used for Labeling](img/slider.png=250x)
+![Slider which Annotators Used for Labeling](img/slider.png =250x)
 
 ### Features:
 Features can be extracted as relevant to individual studies. We had most success with OpenSmile feature-sets.
