@@ -32,7 +32,7 @@ Information about the audio segments and annotations included in the corpus is l
 ## Instructions:
 
 ### Audio:
-Download the appropriate oral argument recordings from https://www.supremecourt.gov/oral_arguments/argument_audio/2019
+Download the appropriate oral argument recordings from the website of the [U.S. Supreme Court](https://www.supremecourt.gov/oral_arguments/argument_audio/2019).
 Run the audio splicing script using the time-stamp document and the appropriate recording as arguments.
 
 `split_files.sh`
@@ -55,9 +55,9 @@ Raw are saved in `annotations.txt`. The id is the numeric count of the turn in e
 
 Labels are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
 
-![Distribution of Labels](img/distribution.png)
+![Distribution of Labels](img/distribution.png=250x)
 
-![Slider which Annotators Used for Labeling](img/slider.png)
+![Slider which Annotators Used for Labeling](img/slider.png=250x)
 
 ### Features:
 Features can be extracted as relevant to individual studies. We had most success with OpenSmile feature-sets.
