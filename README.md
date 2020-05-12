@@ -8,22 +8,38 @@ This study presents a corpus of exchanges between speakers in U.S. Supreme Court
 
 Information about the audio segments and annotations included in the corpus is listed below.
 
-|---|---|
-|Number of oral arguments|4|
-|Number of annotated segments|732|
-|Number of annotators per segment|2|
-|Number of unique annotators|77|
-|Number of segments annotated by each annotator|1 - 26 (+ 2 “dummy” segments)|
-|Number of Unique Male Participants|11 including Justice Thomas, who does not speak|
-|Number of Unique Female Participants|9|
-|Number of Justice to Non-Justice exchanges|338|
-|Number of Non-Justice to Justice exchanges|351|
-|Number of Justice to Justice exchanges|22|
-|Number of Non-Justice to Non-Justice exchanges|0|
-|Number of Female to Female exchanges|127|
-|Number of Male to Male exchanges|269|
-|Number of Female to Male exchanges|165|
-|Number of Male to Female exchanges|150|
+
+
+Number of oral arguments: 4 
+
+Number of annotated segments: 732
+
+Number of annotators per segment: 2
+
+Number of unique annotators: 77
+
+Number of segments annotated by each annotator: 1 - 26 (+ 2 “dummy” segments)
+
+Number of Unique Male Participants: 11 including Justice Thomas, who does not speak
+
+Number of Unique Female Participants: 9
+
+Number of Justice to Non-Justice exchanges: 338
+
+Number of Non-Justice to Justice exchanges: 351
+
+Number of Justice to Justice exchanges: 22
+
+Number of Non-Justice to Non-Justice exchanges: 0
+
+Number of Female to Female exchanges: 127
+
+Number of Male to Male exchanges: 269
+
+Number of Female to Male exchanges: 165
+
+Number of Male to Female exchanges: 150
+
 
 ## Instructions:
 
