@@ -8,7 +8,7 @@ This study presents a corpus of exchanges between speakers in U.S. Supreme Court
 
 Information about the audio segments and annotations included in the corpus is listed below.
 
-|-|-|-|
+|---|---|
 |Number of oral arguments|4|
 |Number of annotated segments|732|
 |Number of annotators per segment|2|
