@@ -56,16 +56,20 @@ To extract the text by turns:
 1. Click on the oral argument recording on the left of the page, which will bring up an animated transcript. 
 2. Right click the animation and click "Inspect Element." 
 3. Right click on the section marked "class="transcript-section ng-scope"" and select "copy element." This will copy all relevant HTML to the clipboard, and you can save it to a separate document. 
-4. Run `extract_turns.sh`to split the transcripts into separate turns.
+4. I used Beautiful Soup to extract the appropriate information from the HTML. 
 
 
 
 ### Labels:
 Each turn was labeled twice by unique annotators. 
 
-Raw are saved in `annotations.txt`. The id is the numeric count of the turn in each hearing, the name of the first speaker, the name of the second speaker, and the name of the corpus concatenated with underscores. The columns "r1" and "r2" are the ratings for that clip, and the columns "a1" and "a2" are the ids of individual annotators. The demographic information for those annotators is saved in the file `annotator_demographics.txt`. 
+Raw are saved in `turns_and_corpus.csv`. The id is the numeric count of the turn in each hearing, the name of the first speaker, the name of the second speaker, and the name of the argument concatenated with underscores. The `start_time` and `end_time` tags record when our turn-change extraction script detected turns. The `length` column is the length of each clip. Before annotating the turn changes, I manually listened to each clip, removing or changing the clips for a variety of reasons. The `removed_from_corpus` includes which clips were removed, the `changed` column includes which were changed, and the `new_name`, `new_start`, and `new_end` columns record what was changed. The `explanation` column gives reasons why changes and removals were made, such as 'MIPTC' (a turn that includes "may it please the court") and 'Audience Laughing'.
 
-Labels are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
+The columns "r1" and "r2" are the ratings for that clip, and the columns "a1" and "a2" are the ids of individual annotators. The demographic information for those annotators is saved in the file `annotator_demographics.txt`.  `mean_score` records the mean of the scores give by both raters. `text` is the text associated with the turn-change in the html. The column `dash` is a binary column recording whether or not the turn ends in a dash, which can be used as a baseline for classification of competitive turns.
+
+The columns `speaker_1` and `speaker_2` record which speakers participate in a turn. There are also columns for each speaker's gender and role. Genders are binary and based on the public profiles of the speakers; if the corpus is expanded researchers should be cautious not to assume gender, race, or other demographic information about speakers. 
+
+Ratings are raw, as given directly by annotators. For our experiments we binned the labels into quintiles, which capture the peaks in the distribution of reviews and correlate with the set-up of the annotation software that annotators used to label the clips. We used the average label of the two annotators.
 
 Distribution of Labels
 
@@ -75,5 +79,5 @@ Slider which Annotators Used for Labeling
 
 <img src="img/slider.png" width="500">
 
-### Features:
+### Audio Features:
 Features can be extracted as relevant to individual studies. We had most success with OpenSmile feature-sets.

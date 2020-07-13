@@ -1,4 +1,4 @@
-id,start_time,end_time,length,removed_from_corpus,changed,new_name,new_start,new_end,Explanation,r1,a1,r2,a2,speaker_1,speaker_1_gender,speaker_1_role,speaker_2,speaker_2_gender,speaker_2_role,mean_score,Text,Dash
+id,start_time,end_time,length,removed_from_corpus,changed,new_name,new_start,new_end,explanation,r1,a1,r2,a2,speaker_1,speaker_1_gender,speaker_1_role,speaker_2,speaker_2_gender,speaker_2_role,mean_score,text,dash
 24_Kagan_Schrup_KahlervKansas,579.16,579.6,0.44,,1,,,581.16,Clarify second speaker,66,45,50,53,Kagan,f,j,Schrup,f,a,58, Ms. -- ,TRUE
 191_Kagan_Prelogar_KahlervKansas,3092.08,3092.6,0.52,,,,,,,24,8,21,8,Kagan,f,j,Prelogar,f,a,22.5, But -- ,TRUE
 112_Breyer_Crouse_KahlervKansas,2190.52,2191.04,0.52,,,,,,,,,,,,,,,,,, I don't care -- ,TRUE
