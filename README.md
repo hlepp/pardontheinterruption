@@ -10,9 +10,12 @@ This study presents a corpus of exchanges between speakers in U.S. Supreme Court
 
 ### Audio:
 Download the appropriate oral argument recordings from the website of the [U.S. Supreme Court](https://www.supremecourt.gov/oral_arguments/argument_audio/2019).
-Run the audio splicing script using the appropriate recording as an argument.
+Run the audio splicing script using the appropriate recording as an argument. 
+`python split_files.py <recording>`
 
-`split_files.sh <recording>`
+You must have SoX installed. If you prefer another audio processing software, you can extract the turn information from `turns_and_corpus.csv` directly.
+
+
 
 ### Text:
 Transcripts without timestamps are listed publicly on the website of the [U.S. Supreme Court](https://www.supremecourt.gov/oral_arguments/argument_transcript/2019).
@@ -29,7 +32,7 @@ Each turn was labeled twice by unique annotators.
 
 Turns and corpus information are saved in `turns_and_corpus.csv`. The id is the numeric count of the turn in each hearing, the name of the first speaker, the name of the second speaker, and the name of the argument concatenated with underscores. The `start_time` and `end_time` tags record when our turn-change extraction script detected turns. The `length` column is the length of each clip. Before annotating the turn changes, I manually listened to each clip, removing or changing the clips for a variety of reasons. The `removed_from_corpus` includes which clips were removed, the `changed` column includes which were changed, and the `new_name`, `new_start`, and `new_end` columns record what was changed. The `explanation` column gives reasons why changes and removals were made, such as 'MIPTC' (a turn that includes "may it please the court") and 'Audience Laughing'.
 
-The columns "r1" and "r2" are the ratings for that clip, and the columns "a1" and "a2" are the ids of individual annotators. The demographic information for those annotators is saved in the file `annotator_demographics.txt`.  `mean_score` records the mean of the scores give by both raters. `text` is the text associated with the turn-change in the html. The column `dash` is a binary column recording whether or not the turn ends in a dash, which can be used as a baseline for classification of competitive turns.
+The columns "r1" and "r2" are the ratings for that clip, and the columns "a1" and "a2" are the ids of individual annotators. The demographic information for those annotators is saved in the file `annotator_demographics.csv`.  `mean_score` records the mean of the scores give by both raters. `text` is the text associated with the turn-change in the html. The column `dash` is a binary column recording whether or not the turn ends in a dash, which can be used as a baseline for classification of competitive turns.
 
 The columns `speaker_1` and `speaker_2` record which speakers participate in a turn. There are also columns for each speaker's gender and role. Genders are binary and based on the public profiles of the speakers; if the corpus is expanded researchers should be cautious not to assume gender, race, or other demographic information about speakers. 
 
