@@ -11,7 +11,8 @@ This study presents a corpus of exchanges between speakers in U.S. Supreme Court
 ### Audio:
 Download the appropriate oral argument recordings from the website of the [U.S. Supreme Court](https://www.supremecourt.gov/oral_arguments/argument_audio/2019).
 Run the audio splicing script using the appropriate recording as an argument. 
-`python split_files.py <recording>`
+
+`python split_files.py <path to recording> <abbrv. name of argument> <path to corpus file>`
 
 You must have SoX installed. If you prefer another audio processing software, you can extract the turn information from `turns_and_corpus.csv` directly.
 
