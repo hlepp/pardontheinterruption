@@ -1,6 +1,6 @@
 # Pardon the Interruption
 
-Author: Haley Lepp, University of Washington Computational Linguistics
+Author: Haley Lepp and Gina-Anne Levow, University of Washington Computational Linguistics
 
 
 ## Description:
