@@ -4,7 +4,7 @@ Author: Haley Lepp and Gina-Anne Levow, University of Washington Computational L
 
 
 ## Description:
-This study presents a corpus of exchanges between speakers in U.S. Supreme Court Oral Arguments. Each exchange is labeled on a spectrum of 0 ("very competitive") to 100 ("very cooperative") by a human annotator with legal experience in the United States. Details on the collection of these annotations can be found [here](https://digital.lib.washington.edu/researchworks/handle/1773/45514). 
+This study presents a corpus of exchanges between speakers in U.S. Supreme Court Oral Arguments. Each exchange is labeled on a spectrum of 0 ("very competitive") to 100 ("very cooperative") by a human annotator with legal experience in the United States. Details on the collection of these annotations can be found [here](https://digital.lib.washington.edu/researchworks/handle/1773/45514). Our publication at INTERSPEECH is [here](https://www.isca-speech.org/archive/pdfs/interspeech_2020/lepp20_interspeech.pdf) and at NNLP Workshop at KDD is [here](https://sites.google.com/view/nllp/program).
 
 ## Instructions:
 
